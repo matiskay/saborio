@@ -29,9 +29,8 @@ p {
 
 #food {
   background: rgba(0,0,0, 0.6);
-  height: 100%;
   margin-left: 25px;
-  padding: 100px 25px 0 25px;
+  padding: 100px 25px 25px 25px;
   width: 400px;
 }
 
@@ -50,7 +49,7 @@ p {
 
 #controls {
   position: absolute;
-  bottom: -50px;
+  bottom: 20px;
   right: 20px;
 }
 
@@ -77,4 +76,8 @@ p {
 
 .button a:hover {
   background: #000;
+}
+
+.last {
+  margin-bottom: 0px;
 }
