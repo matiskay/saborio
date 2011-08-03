@@ -26,4 +26,19 @@ jQuery(function($){
                           {image : 'img/guiso.jpg'}
                         ],
   });
+
+  $('#prevslide').click(function() {
+    api.prevSlide();
+    return false;
+  });
+
+  $('#stop-play').click(function() {
+    api.playToggle();
+    return false;
+  });
+
+  $('#nextslide').click(function() {
+    api.nextSlide();
+    return false;
+  });
 });
